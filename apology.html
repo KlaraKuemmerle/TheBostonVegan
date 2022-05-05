@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+    <!-- https://memegen.link/ -->
+    <img alt="{{ top }}" class="border img-fluid" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://images.squarespace-cdn.com/content/v1/570bbab7f8baf32ad318d0a6/1483502106827-586LVP1D06M810ETU84Z/RedNoseStudio_AngryVegan_IG.jpg?format=1500w&width=500" title="{{ top }}">
+{% endblock %}
